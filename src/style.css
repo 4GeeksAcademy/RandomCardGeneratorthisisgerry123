@@ -1,7 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-body{
-    background-color: green;
+body {
+  background-color: green;
 }
-.card-body{
-    background-color: white;
+
+.card-body {
+  background-color: white;
+  box-shadow: 10px 10px 5px;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 5rem;
+  margin-left: 450px;
+  margin-bottom: 100px;
+  height: 35rem;
+  width: 25rem;
 }
