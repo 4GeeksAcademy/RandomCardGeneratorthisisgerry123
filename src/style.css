@@ -1,16 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-color: green;
+  background-color: rgba(54, 68, 86, 0.74);
 }
-
-.card-body {
-  background-color: white;
-  box-shadow: 10px 10px 5px;
+#number {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 90px;
+}
+span {
+  font-size: 80px;
+}
+#card {
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 25px;
-  position: relative;
-  margin-top: 5rem;
-  margin-left: 450px;
-  margin-bottom: 100px;
-  height: 35rem;
-  width: 25rem;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  overflow: hidden;
+}
+.flipped {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.btn {
+  color: white;
+  border: 10px black;
+  border-radius: 5px;
+  background-color: rgba(6, 6, 76, 0.356);
+  text-decoration: underline;
 }
